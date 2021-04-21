@@ -8,7 +8,7 @@ public class Beca {
 		int beca;
 
 		if (rentaFamiliar < 10) {
-			throw new RuntimeException("Renta incorrecta");
+			throw new RuntimeException("Renta incorrecta es esta hola hola hola");
 		} else {
 
 			if (rentaFamiliar < renta_mínima) {
