@@ -7,7 +7,7 @@ public class Beca {
 	public static int calcularBeca(double rentaFamiliar) throws RuntimeException {
 		int beca;
 
-		if (rentaFamiliar < 0) {
+		if (rentaFamiliar < 10) {
 			throw new RuntimeException("Renta incorrecta");
 		} else {
 
